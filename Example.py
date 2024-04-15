@@ -29,4 +29,33 @@ print(x.value)
 del x.value
 try:    print(x.value)     
 except AttributeError as e:     print("AttributeError!")
-	
+
+
+#-------#
+
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self._age = age
+
+    @Property
+    def age(self):
+        "The person's age"
+        return self._age
+
+    @age.setter
+    def age(self, value):
+        if isinstance(value, int) and 0 < value < 120:
+            self._age = value
+        else:
+            raise ValueError("Age must be an integer between 1 and 119")
+        
+
+mamahoos = Person('mamahoos', 17)
+
+mamahoos.age += 1		# ^_^
+
+print(
+    mamahoos.age
+)
