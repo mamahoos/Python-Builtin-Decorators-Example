@@ -10,7 +10,7 @@ class foo:
 		return self.__value
 			
 	def setter(self, value):
-		print('Setting value to ' + value)
+		print(f'Setting value to {value}')
 		self.__value = value
 
 	def deleter(self):
@@ -41,12 +41,13 @@ class Person:
 
     @Property
     def age(self):
-        "The person's age"
+        print('Getting value')
         return self._age
 
     @age.setter
     def age(self, value):
         if isinstance(value, int) and 0 < value < 120:
+            print(f'Setting value to {value}')
             self._age = value
         else:
             raise ValueError("Age must be an integer between 1 and 119")
