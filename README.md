@@ -9,11 +9,8 @@ The `property` decorator is a fundamental feature in Python that allows develope
 ## Usage
 
 The reimplementation is designed to be used in the same way as the original `property` decorator. It enables the creation of managed attributes, commonly known as "properties," within your Python classes.
+for more information about `property`: https://docs.python.org/3/library/functions.html#property
 
 ## Example.py
 
 For a practical demonstration of how to integrate this custom `property` decorator into your code, please refer to the `Example.py` file included in this repository. It provides a clear example of the decorator in action.
-
-## Learning Resource
-
-By studying this reimplementation and experimenting with the `Example.py` file, users can gain a deeper appreciation for one of Python's elegant solutions to common object-oriented programming challenges.
