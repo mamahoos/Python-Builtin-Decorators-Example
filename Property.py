@@ -17,7 +17,7 @@ class Property:
         self.__doc__ = doc or fget.__doc__
         self.__name__ = fget.__name__
 
-    def __get__(self, instance, _: "instance_type"):
+    def __get__(self, instance, owner):
         if instance is None:
             return self
         if self.fget is None:
