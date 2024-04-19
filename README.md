@@ -14,6 +14,7 @@ Decorators in Python are a powerful feature that allow for the modification of f
 - `Wraps.py`: Contains a custom implementation of the `functools.wraps` decorator.
 - `Example.py`: Contains examples of `Staticmethod`, `Classmethod`, `Property` decorators.
 
+
 ## Usage
 
 Each file contains a class with the decorator implementation and comments explaining the functionality. These can be used as a reference or a starting point for creating your own decorators.
