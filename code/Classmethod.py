@@ -1,4 +1,4 @@
-from functools import wraps
+from Wraps import  Wraps
 from typing import Callable
 
 
@@ -22,7 +22,7 @@ class Classmethod:
             The wrapper function that binds the first argument of the decorated method to the owner class.
         """
         
-        @wraps(self.decorated_method)
+        @Wraps(self.decorated_method)
         def wrapper(*args, **kwargs):
             """Wrap the decorated method to ensure it receives the owner (class) as the first argument."""
             return self.decorated_method(owner, *args, **kwargs)
