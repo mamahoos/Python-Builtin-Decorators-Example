@@ -1,6 +1,6 @@
 # Python Built-in Decorators Example
 
-This repository contains a comprehensive example of custom Python decorators, demonstrating the implementation and usage of `property`, `classmethod`, and `staticmethod` decorators.
+This repository contains a comprehensive example of custom Python decorators, demonstrating the implementation and usage of `property`, `classmethod`, `staticmethod`, and `wraps` decorators.
 
 ## Overview
 
@@ -8,9 +8,10 @@ Decorators in Python are a powerful feature that allow for the modification of f
 
 ## Contents
 
-- `Staticmethod.py`: Contains a custom implementation of the `Staticmethod` decorator.
-- `Classmethod.py`: Contains a custom implementation of the `Classmethod` decorator.
-- `Property.py`: Contains a custom implementation of the `Property` decorator.
+- `Staticmethod.py`: Contains a custom implementation of the `builtins.staticmethod` decorator.
+- `Classmethod.py`: Contains a custom implementation of the `builtins.classmethod` decorator.
+- `Property.py`: Contains a custom implementation of the `builtins.property` decorator.
+- `Wraps.py`: Contains a custom implementation of the `functools.wraps` decorator.
 - `Example.py`: Contains examples of `Staticmethod`, `Classmethod`, `Property` decorators.
 
 ## Usage
