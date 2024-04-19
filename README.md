@@ -11,7 +11,7 @@ Decorators in Python are a powerful feature that allow for the modification of f
 - `Staticmethod.py`: Contains a custom implementation of the `Staticmethod` decorator.
 - `Classmethod.py`: Contains a custom implementation of the `Classmethod` decorator.
 - `Property.py`: Contains a custom implementation of the `Property` decorator.
-- `Example.py`: Contains examples of `Staticmethod`, `Classmethod`, `Property` decorators.
+- `Example.py`: Contains example of `Staticmethod`, `Classmethod`, `Property` decorators.
 
 ## Usage
 
