@@ -1,16 +1,23 @@
-# Python Property Decorator
+# Python Built-in Decorators Example
 
-This repository contains a reimplementation of the built-in `property` class in Python. The purpose of this project is to provide a better understanding of how the `property` decorator operates and to offer insights into its inner workings.
+This repository contains a comprehensive example of custom Python decorators, demonstrating the implementation and usage of `property`, `classmethod`, and `staticmethod` decorators.
 
 ## Overview
 
-The `property` decorator is a fundamental feature in Python that allows developers to manage attribute access within a class. This custom version of the `property` decorator is written to mimic the behavior of the built-in version, with an emphasis on clarity and educational value.
+Decorators in Python are a powerful feature that allow for the modification of functions or methods. This repository showcases how to create custom decorators that mimic the behavior of Python's built-in decorators.
+
+## Contents
+
+- `Staticmethod.py`: Contains a custom implementation of the `Staticmethod` decorator.
+- `Classmethod.py`: Contains a custom implementation of the `Classmethod` decorator.
+- `Property.py`: Contains a custom implementation of the `Property` decorator.
+- `Example.py`: Contains examples of `Staticmethod`, `Classmethod`, `Property` decorators.
 
 ## Usage
 
-The reimplementation is designed to be used in the same way as the original `property` decorator. It enables the creation of managed attributes, commonly known as "properties," within your Python classes.
-for more information about `property`: https://docs.python.org/3/library/functions.html#property
+Each file contains a class with the decorator implementation and comments explaining the functionality. These can be used as a reference or a starting point for creating your own decorators.
 
-## Example.py
 
-For a practical demonstration of how to integrate this custom `property` decorator into your code, please refer to the `Example.py` file included in this repository. It provides a clear example of the decorator in action.
+## Contributing
+
+Contributions are welcome! If you have any suggestions or improvements, feel free to fork the repository and submit a pull request.
