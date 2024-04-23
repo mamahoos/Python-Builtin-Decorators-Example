@@ -1,7 +1,7 @@
 from Property import Property
 from Classmethod import Classmethod
 from Staticmethod import Staticmethod
-
+from Final import Final
 
 class Example:
     def __init__(self, value):

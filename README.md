@@ -12,6 +12,7 @@ Decorators in Python are a powerful feature that allow for the modification of f
 - `Classmethod.py`: Contains a custom implementation of the `builtins.classmethod` decorator.
 - `Property.py`: Contains a custom implementation of the `builtins.property` decorator.
 - `Wraps.py`: Contains a custom implementation of the `functools.wraps` decorator.
+- `Final.py`: Contains a custom implementation of the `typing.final` decorator.
 - `Example.py`: Contains examples of `Staticmethod`, `Classmethod`, `Property` decorators.
 
 
